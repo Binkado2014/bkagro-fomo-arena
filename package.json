@@ -1,0 +1,12 @@
+{
+  "name": "degen-game-contract",
+  "type": "module",
+  "scripts": {
+    "compile": "node compile.js",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "ethers": "^6.16.0",
+    "solc": "^0.8.24"
+  }
+}
